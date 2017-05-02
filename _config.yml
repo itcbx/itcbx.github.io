@@ -1,6 +1,5 @@
 # Site settings
 title: Beauty Codes
-author: itcbx
 SEOTitle: Beauty Codes | 编程之美
 header-img: img/home-bg.jpg
 email: tech@itcbx.com
@@ -8,7 +7,17 @@ description: "Beauty Codes, code for fun, code for life!"
 keyword: "blog, acm, algorithm, iOS, linux, objective-c, swift, PHP, python, 博客, 个人网站, 互联网"
 url: "http://blog.itcbx.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-permalink: /:categories/:title.html
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: projecteuler
+      type: posts
+    values:
+      layout: post
+      categories: projecteuler
+      permalink: /:categories/:title.html
 
 
 # SNS settings
