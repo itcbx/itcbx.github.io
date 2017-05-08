@@ -18,7 +18,7 @@ defaults:
     values:
       layout: post
       categories: tech
-      permalink: /:tech/:title.html
+      permalink: /:categories/:title.html
   -
     scope:
       path: projecteuler
