@@ -13,6 +13,14 @@ baseurl: ""                             # for example, '/blog' if your blog host
 defaults:
   -
     scope:
+      path: tech
+      type: posts
+    values:
+      layout: post
+      categories: tech
+      permalink: /:tech/:title.html
+  -
+    scope:
       path: projecteuler
       type: posts
     values:
