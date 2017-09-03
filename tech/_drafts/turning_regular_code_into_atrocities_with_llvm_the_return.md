@@ -1,5 +1,5 @@
 ---
-title:  Turning Regular Code Into Atrocities With LLVM: The Return
+title:  Turning Regular Code Into Atrocities With LLVM\: The Return
 author: itcbx
 tags:
     - llvm
@@ -508,7 +508,7 @@ To do so we are going to add the following to our pass:
   3. Create add2' such as add2' = add1' + d'
   4. Apply modulo 2 on add2' bits and transform into base 2 gives us add2
   5. Store add2 in a
- 
+
   This will reduce the number of transformations, which will reduce the number of instructions generated, making the code faster and the obfuscation a little less obvious. This is not that trivial, but we will get the details sorted out later.
 
 * If you have taken a look at the non-optimized obfuscated code, you've probably noticed that the pattern is very easy to spot. Each computation of a power of the base appears very clearly… 'Awesome an exponentiation \o/'
