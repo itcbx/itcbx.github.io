@@ -1,3 +1,8 @@
+---
+title:  数学之美
+author: itcbx
+---
+
 ![the-beauty-math](https://blog.itcbx.com/uploads/images/2017-11-30-the-beauty-math.png)
 
 或许因为父亲是数学老师的缘故，在那么多学科里，比较喜欢的也是数学。上了大学之后学习的计算机专业，主攻算法，发现数学是解决各种计算机难题的基础，当每个现实场景抽象成数学模型之后，整个问题就变得清晰明了，化繁为简。
